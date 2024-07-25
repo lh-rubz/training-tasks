@@ -1,36 +1,35 @@
-.largeBox{
-    height: 200px;
-    width:200px;
-    background-color: blue;
-    border: 1px solid red;
-    position:fixed ;
-   top:40%;
-   left:40%;
+.largeBox {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border: 1px solid red;
+  position: relative;
+  top: 40%;
+  left: 40%;
 }
-.smallBoxes{
-    height: 50px;
-    width: 50px;
-    position: absolute;
+.smallBoxes {
+  height: 50px;
+  width: 50px;
+  position: absolute;
 }
 
-.topRight{
-    background-color: yellow;
-    right: 0;
-    top:0;
+.topRight {
+  background-color: yellow;
+  right: 0;
+  top: 0;
 }
-.topLeft{
-    left: 0px;
-    top:0px;
-    background-color: black;
-   
+.topLeft {
+  left: 0px;
+  top: 0px;
+  background-color: black;
 }
-.bottomRight{
-    bottom: 0;
-    right: 0;
-    background-color: red;
+.bottomRight {
+  bottom: 0;
+  right: 0;
+  background-color: red;
 }
-.bottomLeft{
-    bottom:0;
-    left:0;
-    background-color: white;
+.bottomLeft {
+  bottom: 0;
+  left: 0;
+  background-color: white;
 }
