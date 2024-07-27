@@ -16,3 +16,9 @@ status = 200
 from = "/task3"
 to = "/task3.html"
 status = 200
+
+
+[[redirects]]
+from = "/*"
+to = "/task1.html"
+status = 200
