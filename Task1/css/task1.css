@@ -4,10 +4,17 @@
 	background-color: blue;
 	border: 1px solid red;
 	position: relative;
-	top: 40%;
-	left: 40%;
-}
 
+	/* top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%); */
+}
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .smallBoxes {
 	height: 50px;
 	width: 50px;
