@@ -1,0 +1,24 @@
+[build]
+publish = "Task1"
+
+[[redirects]]
+from = "/task1"
+to = "/task1.html"
+status = 200
+
+
+[[redirects]]
+from = "/task2"
+to = "/task2.html"
+status = 200
+
+[[redirects]]
+from = "/task3"
+to = "/task3.html"
+status = 200
+
+
+[[redirects]]
+from = "/*"
+to = "/task1.html"
+status = 200

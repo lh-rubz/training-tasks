@@ -1,0 +1,43 @@
+.largeBox {
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	border: 1px solid red;
+	position: relative;
+
+	/* top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%); */
+}
+.container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.smallBoxes {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+}
+
+.topRight {
+	background-color: yellow;
+	right: 0;
+	top: 0;
+}
+.topLeft {
+	left: 0px;
+	top: 0px;
+	background-color: black;
+}
+.bottomRight {
+	bottom: 0;
+	right: 0;
+	background-color: red;
+}
+.bottomLeft {
+	bottom: 0;
+	left: 0;
+	background-color: white;
+}
